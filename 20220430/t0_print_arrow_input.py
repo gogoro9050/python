@@ -16,3 +16,16 @@ print(val)
   *  
   * 
 """
+
+import turtle
+
+turtle.penup()
+turtle.speed(0)
+
+for i in range(8):
+    turtle.right(45 * i)
+    turtle.forward(100)
+    turtle.stamp()
+    turtle.home()
+
+turtle.done()
