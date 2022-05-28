@@ -13,4 +13,4 @@
 #         print('正解')
 #         break
 
-print(len([1, 2, 3]))
+# print(len([1, 2, 3]))
